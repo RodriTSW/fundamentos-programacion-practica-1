@@ -12,12 +12,13 @@
  * @returns {Object} - Objeto con nombre, edad y carrera
  */
 function miInformacion() {
-  // TODO: Declara las variables nombre, edad y carrera
+  // TODO: Declara las variabnpm nles nombre, edad y carrera
   // Ejemplo: const nombre = "Juan";
+  // Comentario de prueba
   
-  const nombre = "";
-  const edad = 0;
-  const carrera = "";
+  const nombre = "Rodrigo Barrera García";
+  const edad = 19;
+  const carrera = "Desarrollo de Software y Negocios Digitales";
   
   return { nombre, edad, carrera };
 }
