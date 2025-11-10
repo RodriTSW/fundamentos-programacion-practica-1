@@ -1,6 +1,6 @@
 // FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
-// Nombre del estudiante: _________________
-// Fecha: _________________
+// Nombre del estudiante: Rodrigo Barrera García
+// Fecha: 05/11/2025
 
 // ============================================
 // SECCIÃ“N 1: VARIABLES Y TIPOS DE DATOS (10 puntos)
@@ -64,7 +64,8 @@ function celsiusAFahrenheit(celsius) {
 }
 
 // ============================================
-// SECCIÃ“N 2: CONDICIONALES (15 puntos)
+// SECCIÃ“N 2: CONDICIONALES (15 puntos)||
+
 // ============================================
 
 /**
@@ -75,7 +76,12 @@ function celsiusAFahrenheit(celsius) {
 function parOImpar(numero) {
   // TODO: Usa el operador % (mÃ³dulo) para determinar si es par o impar
   // Pista: Un nÃºmero es par si numero % 2 === 0
-  return "";
+
+  if (numero % 2 === 0) {
+    return "par";
+  } else {
+    return "impar";
+  }
 }
 
 /**
