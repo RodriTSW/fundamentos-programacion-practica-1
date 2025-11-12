@@ -356,8 +356,10 @@ function sumaMatriz(matriz) {
  */
 function obtenerFila(matriz, indiceFila) {
   // TODO: Retorna la fila indicada
-  return [];
+  return matriz[indiceFila];
 }
+
+  const miMatriz = [[1, 2], [3, 4], [5, 6]];
 
 /**
  * Ejercicio 5.4: Obtener una columna (7 puntos)
