@@ -219,7 +219,13 @@ function numerosPares(n) {
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
-  return 0;
+  let suma = 0;
+
+  for (let i = 0; i < numeros.length; i++) {
+    suma += numeros[i];
+  }
+
+  return suma;
 }
 
 /**
