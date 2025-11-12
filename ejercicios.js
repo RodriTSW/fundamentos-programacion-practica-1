@@ -334,7 +334,17 @@ function crearMatriz(filas, columnas) {
 function sumaMatriz(matriz) {
   // TODO: Suma todos los elementos de la matriz
   // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
-  return 0;
+  let sumaTotal = 0;
+
+  for (let i = 0; i < matriz.length; i++) {
+    const fila = matriz[i];
+    
+    for (let j = 0; j < fila.length; j++) {
+      sumaTotal += fila[j];
+    }
+  }
+
+  return sumaTotal;
 }
 
 /**
