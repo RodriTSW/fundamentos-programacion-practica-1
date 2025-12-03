@@ -2,7 +2,7 @@
 // Nombre del estudiante: Rodrigo Barrera García
 // Fecha: 05/11/2025
 
-// ============================================
+// ===========================================
 // SECCIÃ“N 1: VARIABLES Y TIPOS DE DATOS (10 puntos)
 // ============================================
 
